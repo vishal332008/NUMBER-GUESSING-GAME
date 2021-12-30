@@ -18,3 +18,6 @@ while chances>0:
     elif guess<number:
         print(f"YOUR GUESS WAS TOO LOW. TRY A NUMBER HIGHER THAN {guess}")
         chances=chances-1
+        
+if chances==0:
+    print("YOU HAVE JUST LOST. SAD :(")
